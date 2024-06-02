@@ -1,7 +1,7 @@
 clear
-figlet -f 3d "Raider Vpn Premium Tunneling" | lolcat
+figlet -f 3d "KING Vpn Premium Tunneling" | lolcat
 cat /root/log-install.txt
 echo "-----------------------------------------------------"
-echo "                Credit Script @kytxz" | lolcat
-echo "                   Author Script Raider Vpn Premium" | lolcat
+echo "                Credit Script @MasAnsor" | lolcat
+echo "                   Author Script KING Vpn Premium" | lolcat
 echo "-----------------------------------------------------"
