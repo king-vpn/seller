@@ -86,5 +86,5 @@ systemctl restart xray
 
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "${YELLOW}          Terimakasih sudah menggunakan         "
-echo -e "                 Script Premium RAIDER VPN PREMIUIM"
+echo -e "                 Script Premium KING VPN PREMIUIM"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
