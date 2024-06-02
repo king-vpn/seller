@@ -5,6 +5,6 @@ if [ $LocalVersion = $Version ]; then
 echo -e "Script Sudah Versi Terbaru..." | lolcat
 else
 echo -e "Update tersedia!!";
-wget -q -O updateyes.sh myrid.digital/drg/menu/updateyes.sh && chmod +x updateyes.sh && ./updateyes.sh
+wget -q -O updateyes.sh https://raw.githubusercontent.com/king-vpn/seller/master/menu/updateyes.sh && chmod +x updateyes.sh && ./updateyes.sh
 rm -f updateyes.sh
 fi
