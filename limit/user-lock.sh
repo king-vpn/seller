@@ -37,7 +37,7 @@ clear
   echo -e "  \e[34m※\e[0m Username : ${blue}$username${NC}";
   echo -e "  \e[31m※\e[0m Status   : ${red}LOCKED${NC}";
   echo " ";
-  echo " ★ POWER BY RAIDER™ SERVER ★";
+  echo " ★ POWER BY KINGVPN™ SERVER ★";
   echo " ";
         echo " ";
         echo " ";
