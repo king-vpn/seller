@@ -4,68 +4,68 @@ clear
 mkdir -p /root/folder
 
 echo -e "${GREEN}Harap Bersabar Tuan${NC}"
-wget -q -O /root/status "myrid.digital/drg/statushariini"
+wget -q -O /root/status "https://raw.githubusercontent.com/king-vpn/seller/master/statushariini"
 
-wget -q -O /etc/version "myrid.digital/drg/versiupdate" && chmod +x /etc/version
+wget -q -O /etc/version "https://raw.githubusercontent.com/king-vpn/seller/master/versiupdate" && chmod +x /etc/version
 
-#wget -q -O /usr/bin/menu "myrid.digital/drg/menu/menu.sh"
-wget -q -O /usr/bin/menu1 "myrid.digital/drg/menu/menu1.sh"
-wget -q -O /usr/bin/delv2ray "myrid.digital/drg/menu/delv2ray.sh"
-#wget -q -O /usr/bin/add-ws "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/add-ws.sh"
-#wget -q -O /usr/bin/add-ssws "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/add-ssws.sh"
-#wget -q -O /usr/bin/add-socks "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/add-socks.sh"
-#wget -q -O /usr/bin/add-vless "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/add-vless.sh"
-#wget -q -O /usr/bin/add-tr "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/add-tr.sh"
-#wget -q -O /usr/bin/add-trgo "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/add-trgo.sh"
-wget -q -O /usr/bin/autoreboot "myrid.digital/drg/menu/autoreboot.sh"
-wget -q -O /usr/bin/restart "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/restart.sh"
-wget -q -O /usr/bin/tendang "myrid.digital/drg/limit/tendang.sh"
-wget -q -O /usr/bin/clearlog "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/clearlog.sh"
-wget -q -O /usr/bin/running "myrid.digital/drg/menu/running.sh"
-wget -q -O /usr/bin/cek-trafik "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/cek-trafik.sh"
-wget -q -O /usr/bin/cek-speed "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/speedtes_cli.py"
-wget -q -O /usr/bin/cek-bandwidth "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/cek-bandwidth.sh"
-wget -q -O /usr/bin/cek-ram "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/ram.sh"
-wget -q -O /usr/bin/limit-speed "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/limit-speed.sh"
+#wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/king-vpn/seller/master/menu/menu.sh"
+wget -q -O /usr/bin/menu1 "https://raw.githubusercontent.com/king-vpn/seller/master/menu/menu1.sh"
+wget -q -O /usr/bin/delv2ray "https://raw.githubusercontent.com/king-vpn/seller/master/menu/delv2ray.sh"
+#wget -q -O /usr/bin/add-ws "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/add-ws.sh"
+#wget -q -O /usr/bin/add-ssws "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/add-ssws.sh"
+#wget -q -O /usr/bin/add-socks "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/add-socks.sh"
+#wget -q -O /usr/bin/add-vless "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/add-vless.sh"
+#wget -q -O /usr/bin/add-tr "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/add-tr.sh"
+#wget -q -O /usr/bin/add-trgo "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/add-trgo.sh"
+wget -q -O /usr/bin/autoreboot "https://raw.githubusercontent.com/king-vpn/seller/master/menu/autoreboot.sh"
+wget -q -O /usr/bin/restart "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/restart.sh"
+wget -q -O /usr/bin/tendang "https://raw.githubusercontent.com/king-vpn/seller/master/limit/tendang.sh"
+wget -q -O /usr/bin/clearlog "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/clearlog.sh"
+wget -q -O /usr/bin/running "https://raw.githubusercontent.com/king-vpn/seller/master/menu/running.sh"
+wget -q -O /usr/bin/cek-trafik "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/cek-trafik.sh"
+wget -q -O /usr/bin/cek-speed "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/speedtes_cli.py"
+wget -q -O /usr/bin/cek-bandwidth "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/cek-bandwidth.sh"
+wget -q -O /usr/bin/cek-ram "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/ram.sh"
+wget -q -O /usr/bin/limit-speed "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/limit-speed.sh"
 
-#wget -q -O /usr/bin/menu-socks "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/menu-socks.sh"
-wget -q -O /usr/bin/menu-ss "myrid.digital/drg/menu/menu-ss.sh"
-wget -q -O /usr/bin/menu-vless "myrid.digital/drg/menu/menu-vless.sh"
-wget -q -O /usr/bin/menu-vmess "myrid.digital/drg/menu/menu-vmess.sh"
-wget -q -O /usr/bin/menu-trojan "myrid.digital/drg/menu/menu-trojan.sh"
-#wget -q -O /usr/bin/menu-trgo "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/menu-trgo.sh"
-wget -q -O /usr/bin/menu-ssh "myrid.digital/drg/menu/menu-ssh.sh"
-#wget -q -O /usr/bin/menu-bckp "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/menu-bckp-telegram.sh"
-wget -q -O /usr/bin/menu-bckp "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/menu-bckp-github.sh"
-#wget -q -O /usr/bin/bckp "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/bckpbot.sh"
-wget -q -O /usr/bin/usernew "myrid.digital/drg/menu/usernew.sh"
-wget -q -O /usr/bin/menu "myrid.digital/drg/menu/menu.sh"
-wget -q -O /usr/bin/wbm "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/webmin.sh"
-wget -q -O /usr/bin/changer "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/changer.sh"
-#wget -q -O /usr/bin/xp "myrid.digital/drg/xp.sh"
-wget -q -O /usr/bin/addhost  "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/addhost.sh"
-wget -q -O /usr/bin/genssl  "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/genssl.sh"
-wget -q -O /usr/bin/fix "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/cf.sh"
-#wget -q -O /usr/bin/update "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/update.sh"
-wget -q -O /etc/cyber.site "myrid.digital/drg/cyber.site"
-wget -q -O /root/versi "myrid.digital/drg/versiupdate"
-wget -q -O /usr/bin/updatsc "myrid.digital/drg/menu/update.sh"
-wget -q -O /usr/bin/menu-backup "myrid.digital/drg/menu/menu-backup.sh"
-wget -q -O /usr/bin/fix "myrid.digital/drg/menu/cf.sh"
-wget -q -O /usr/bin/setting "myrid.digital/drg/Themes/setting.sh"
-wget -q -O /usr/bin/menu-ipsec "myrid.digital/drg/ipsec/menu-ipsec.sh"
-wget myrid.digital/drg/SLDNS/wslow.sh
-wget myrid.digital/drg/backup/set-br.sh
+#wget -q -O /usr/bin/menu-socks "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/menu-socks.sh"
+wget -q -O /usr/bin/menu-ss "https://raw.githubusercontent.com/king-vpn/seller/master/menu/menu-ss.sh"
+wget -q -O /usr/bin/menu-vless "https://raw.githubusercontent.com/king-vpn/seller/master/menu/menu-vless.sh"
+wget -q -O /usr/bin/menu-vmess "https://raw.githubusercontent.com/king-vpn/seller/master/menu/menu-vmess.sh"
+wget -q -O /usr/bin/menu-trojan "https://raw.githubusercontent.com/king-vpn/seller/master/menu/menu-trojan.sh"
+#wget -q -O /usr/bin/menu-trgo "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/menu-trgo.sh"
+wget -q -O /usr/bin/menu-ssh "https://raw.githubusercontent.com/king-vpn/seller/master/menu/menu-ssh.sh"
+#wget -q -O /usr/bin/menu-bckp "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/menu-bckp-telegram.sh"
+wget -q -O /usr/bin/menu-bckp "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/menu-bckp-github.sh"
+#wget -q -O /usr/bin/bckp "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/bckpbot.sh"
+wget -q -O /usr/bin/usernew "https://raw.githubusercontent.com/king-vpn/seller/master/menu/usernew.sh"
+wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/king-vpn/seller/master/menu/menu.sh"
+wget -q -O /usr/bin/wbm "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/webmin.sh"
+wget -q -O /usr/bin/changer "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/changer.sh"
+#wget -q -O /usr/bin/xp "https://raw.githubusercontent.com/king-vpn/seller/master/xp.sh"
+wget -q -O /usr/bin/addhost  "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/addhost.sh"
+wget -q -O /usr/bin/genssl  "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/genssl.sh"
+wget -q -O /usr/bin/fix "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/cf.sh"
+#wget -q -O /usr/bin/update "https://raw.githubusercontent.com/king-vpn/seller/master/botssh/update.sh"
+wget -q -O /etc/cyber.site "https://raw.githubusercontent.com/king-vpn/seller/master/cyber.site"
+wget -q -O /root/versi "https://raw.githubusercontent.com/king-vpn/seller/master/versiupdate"
+wget -q -O /usr/bin/updatsc "https://raw.githubusercontent.com/king-vpn/seller/master/menu/update.sh"
+wget -q -O /usr/bin/menu-backup "https://raw.githubusercontent.com/king-vpn/seller/master/menu/menu-backup.sh"
+wget -q -O /usr/bin/fix "https://raw.githubusercontent.com/king-vpn/seller/master/menu/cf.sh"
+wget -q -O /usr/bin/setting "https://raw.githubusercontent.com/king-vpn/seller/master/Themes/setting.sh"
+wget -q -O /usr/bin/menu-ipsec "https://raw.githubusercontent.com/king-vpn/seller/master/ipsec/menu-ipsec.sh"
+wget https://raw.githubusercontent.com/king-vpn/seller/master/SLDNS/wslow.sh
+wget https://raw.githubusercontent.com/king-vpn/seller/master/backup/set-br.sh
 bash set-br.sh
-wget myrid.digital/drg/Themes/thema.sh
-wget -q -O /usr/bin/trial "myrid.digital/drg/trial/trial.sh"
-wget -q -O /usr/bin/trial "myrid.digital/drg/trial/trial.sh" && chmod +x /usr/bin/trial
-wget -q -O /usr/bin/trial-vmess "myrid.digital/drg/trial/trial-vmess.sh" && chmod +x /usr/bin/trial-vmess
-wget -q -O /usr/bin/trial-trojan "myrid.digital/drg/trial/trial-trojan.sh" && chmod +x /usr/bin/trial-trojan
-wget -q -O /usr/bin/trial-udp "myrid.digital/drg/trial/trial-udp.sh" && chmod +x /usr/bin/trial-udp
-wget -q -O /usr/bin/trial-vless "myrid.digital/drg/trial/trial-vless.sh" && chmod +x /usr/bin/trial-vless
-wget -q -O /usr/bin/menu-trial "myrid.digital/drg/trial/trial-generator.sh" && chmod +x /usr/bin/menu-trial
-wget myrid.digital/drg/menu/3d.flf
+wget https://raw.githubusercontent.com/king-vpn/seller/master/Themes/thema.sh
+wget -q -O /usr/bin/trial "https://raw.githubusercontent.com/king-vpn/seller/master/trial/trial.sh"
+wget -q -O /usr/bin/trial "https://raw.githubusercontent.com/king-vpn/seller/master/trial/trial.sh" && chmod +x /usr/bin/trial
+wget -q -O /usr/bin/trial-vmess "https://raw.githubusercontent.com/king-vpn/seller/master/trial/trial-vmess.sh" && chmod +x /usr/bin/trial-vmess
+wget -q -O /usr/bin/trial-trojan "https://raw.githubusercontent.com/king-vpn/seller/master/trial/trial-trojan.sh" && chmod +x /usr/bin/trial-trojan
+wget -q -O /usr/bin/trial-udp "https://raw.githubusercontent.com/king-vpn/seller/master/trial/trial-udp.sh" && chmod +x /usr/bin/trial-udp
+wget -q -O /usr/bin/trial-vless "https://raw.githubusercontent.com/king-vpn/seller/master/trial/trial-vless.sh" && chmod +x /usr/bin/trial-vless
+wget -q -O /usr/bin/menu-trial "https://raw.githubusercontent.com/king-vpn/seller/master/trial/trial-generator.sh" && chmod +x /usr/bin/menu-trial
+wget https://raw.githubusercontent.com/king-vpn/seller/master/menu/3d.flf
 mv 3d.flf /usr/share/figlet/
 
 sudo apt-get install curl -y
@@ -81,45 +81,45 @@ git clone https://github.com/magnific0/wondershaper.git
 cd wondershaper
 sudo make install
 
-wget -q -O /usr/bin/addudp "myrid.digital/drg/menu/addssh.sh"
-wget -q -O /usr/bin/udp "myrid.digital/drg/menu/menush.sh"
+wget -q -O /usr/bin/addudp "https://raw.githubusercontent.com/king-vpn/seller/master/menu/addssh.sh"
+wget -q -O /usr/bin/udp "https://raw.githubusercontent.com/king-vpn/seller/master/menu/menush.sh"
 
 sudo apt install squid -y
 mkdir /var/lib/ssnvpn-pro/
 rm -f /usr/bin/menu-ssh
-wget -q -O /var/lib/ssnvpn-pro/ipvps.conf "myrid.digital/drg/ipvps.conf"
-wget -q -O /usr/bin/autokill "myrid.digital/drg/limit/autokill.sh"
-wget -q -O /usr/bin/menu-ssh "myrid.digital/drg/menu/menu-ssh.sh"
-wget -q -O /usr/bin/restart "myrid.digital/drg/menu/restart.sh"
+wget -q -O /var/lib/ssnvpn-pro/ipvps.conf "https://raw.githubusercontent.com/king-vpn/seller/master/ipvps.conf"
+wget -q -O /usr/bin/autokill "https://raw.githubusercontent.com/king-vpn/seller/master/limit/autokill.sh"
+wget -q -O /usr/bin/menu-ssh "https://raw.githubusercontent.com/king-vpn/seller/master/menu/menu-ssh.sh"
+wget -q -O /usr/bin/restart "https://raw.githubusercontent.com/king-vpn/seller/master/menu/restart.sh"
 chmod +x /usr/bin/restart
-wget -q -O /usr/bin/bot "myrid.digital/drg/Finaleuy/bot.sh"
-wget -q -O /root/chat "myrid.digital/drg/Finaleuy/chatid.sh"
+wget -q -O /usr/bin/bot "https://raw.githubusercontent.com/king-vpn/seller/master/Finaleuy/bot.sh"
+wget -q -O /root/chat "https://raw.githubusercontent.com/king-vpn/seller/master/Finaleuy/chatid.sh"
 
-wget -q -O /usr/bin/limitvmess "myrid.digital/drg/limit/limitvmess.sh" && chmod +x /usr/bin/limitvmess
+wget -q -O /usr/bin/limitvmess "https://raw.githubusercontent.com/king-vpn/seller/master/limit/limitvmess.sh" && chmod +x /usr/bin/limitvmess
 
-wget -q -O /usr/bin/limitvless "myrid.digital/drg/limit/limitvless.sh" && chmod +x /usr/bin/limitvless
+wget -q -O /usr/bin/limitvless "https://raw.githubusercontent.com/king-vpn/seller/master/limit/limitvless.sh" && chmod +x /usr/bin/limitvless
 
-wget -q -O /usr/bin/limittrojan "myrid.digital/drg/limit/limittrojan.sh" && chmod +x /usr/bin/limittrojan
-wget -q -O /usr/bin/sistem "myrid.digital/drg/menu/sistem.sh" && chmod +x /usr/bin/sistem
-wget -q -O /etc/crontab "myrid.digital/drg/crontab" && chmod 644 /etc/crontab
+wget -q -O /usr/bin/limittrojan "https://raw.githubusercontent.com/king-vpn/seller/master/limit/limittrojan.sh" && chmod +x /usr/bin/limittrojan
+wget -q -O /usr/bin/sistem "https://raw.githubusercontent.com/king-vpn/seller/master/menu/sistem.sh" && chmod +x /usr/bin/sistem
+wget -q -O /etc/crontab "https://raw.githubusercontent.com/king-vpn/seller/master/crontab" && chmod 644 /etc/crontab
 
-wget -q -O /usr/bin/cftn "myrid.digital/drg/menu/cftn.sh" && chmod +x /usr/bin/cftn
+wget -q -O /usr/bin/cftn "https://raw.githubusercontent.com/king-vpn/seller/master/menu/cftn.sh" && chmod +x /usr/bin/cftn
 
-wget -q -O /usr/bin/infosc "myrid.digital/drg/limit/info.sh" && chmod +x /usr/bin/infosc
+wget -q -O /usr/bin/infosc "https://raw.githubusercontent.com/king-vpn/seller/master/limit/info.sh" && chmod +x /usr/bin/infosc
 echo "*/2 * * * * root sistem" >> /etc/crontab
 
 rm /etc/rsyslog.d/50-default.conf
 
-wget myrid.digital/drg/50-default.conf
+wget https://raw.githubusercontent.com/king-vpn/seller/master/50-default.conf
 
 
 cp 50-default.conf /etc/rsyslog.d/50-default.conf
 service rsyslog restart
 
-wget -q -O /etc/default/dropbear "myrid.digital/drg/dropbear" && chmod +x /etc/default/dropbear
+wget -q -O /etc/default/dropbear "https://raw.githubusercontent.com/king-vpn/seller/master/dropbear" && chmod +x /etc/default/dropbear
 
 
-wget -q -O /usr/bin/xp "myrid.digital/drg/menu/xp.sh" && chmod +x /usr/bin/xp
+wget -q -O /usr/bin/xp "https://raw.githubusercontent.com/king-vpn/seller/master/menu/xp.sh" && chmod +x /usr/bin/xp
 
 #SERVICE xp
 cat >/etc/systemd/system/xp.service << EOF
@@ -163,7 +163,7 @@ systemctl enable tendang
 systemctl restart tendang
 
 
-wget -q -O /usr/bin/limitipxray "myrid.digital/drg/limit/limitipxray.py" && chmod +x /usr/bin/limitipxray
+wget -q -O /usr/bin/limitipxray "https://raw.githubusercontent.com/king-vpn/seller/master/limit/limitipxray.py" && chmod +x /usr/bin/limitipxray
 
 
 cat >/etc/systemd/system/iplimit.service << EOF
@@ -185,9 +185,9 @@ systemctl enable iplimit
 systemctl restart iplimit
 
 
-wget -q -O /usr/bin/menu-noobzvpns "myrid.digital/drg/menu/menu-noobzvpns.sh" && chmod +x /usr/bin/menu-noobzvpns
+wget -q -O /usr/bin/menu-noobzvpns "https://raw.githubusercontent.com/king-vpn/seller/master/menu/menu-noobzvpns.sh" && chmod +x /usr/bin/menu-noobzvpns
 
-wget myrid.digital/drg/menu/noobzvpns.zip
+wget https://raw.githubusercontent.com/king-vpn/seller/master/menu/noobzvpns.zip
 unzip noobzvpns.zip
 bash install.sh
 rm noobzvpns.zip
@@ -199,7 +199,7 @@ systemctl restart noobzvpns
 touch /etc/trialxray.txt
 
 
-wget -q -O /usr/bin/service-trial "myrid.digital/drg/menu/service-trial.sh" && chmod +x /usr/bin/service-trial
+wget -q -O /usr/bin/service-trial "https://raw.githubusercontent.com/king-vpn/seller/master/menu/service-trial.sh" && chmod +x /usr/bin/service-trial
 
 
 cat >/etc/systemd/system/trial.service << EOF
