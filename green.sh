@@ -10,7 +10,7 @@ sleep 0.5
 
 CEKEXPIRED() {
     today=$(date -d "+1 day" "+%Y-%m-%d")
-    Exp1=$(curl -sS https://raw.githubusercontent.com/myridwan/izinvps/ipuk/ip | grep $MYIP | awk '{print $3}')
+    Exp1=$(curl -sS https://raw.githubusercontent.com/king-vpn/seller/master/izin | grep $MYIP | awk '{print $3}')
     if [[ $today < $Exp1 ]]; then
         echo -e "Status script aktif."
     else
@@ -18,7 +18,7 @@ CEKEXPIRED() {
         exit 0
     fi
 }
-IZIN=$(curl -sS https://raw.githubusercontent.com/myridwan/izinvps/ipuk/ip | awk '{print $4}' | grep $MYIP)
+IZIN=$(curl -sS https://raw.githubusercontent.com/king-vpn/seller/master/izin | awk '{print $4}' | grep $MYIP)
 if [ $MYIP = $IZIN ]; then
 echo "IZIN DI TERIMA!!"
 else
@@ -57,7 +57,7 @@ echo "IP=" >> /var/lib/scrz-prem/ipvps.conf
 
 sudo apt install vnstat
 sudo apt insta squid
-wget -q -O myrid.digital/tools.sh && chmod +x tools.sh && ./tools.sh
+wget -q -O https://raw.githubusercontent.com/king-vpn/seller/master/tools.sh && chmod +x tools.sh && ./tools.sh
 rm tools.sh
 clear
 
@@ -85,10 +85,10 @@ echo -e "$green      Install SSH / WS / UDP              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-curl "myrid.digital/drg/menu/ssh-vpn.sh" | bash
+curl "https://raw.githubusercontent.com/king-vpn/seller/master/menu/ssh-vpn.sh" | bash
 sleep 2
-wget myrid.digital/drg/nginx-ssl.sh && chmod +x nginx-ssl.sh && ./nginx-ssl.sh
-wget -q -O demeling.sh myrid.digital/drg/demeling.sh && chmod +x demeling.sh && ./demeling.sh
+wget https://raw.githubusercontent.com/king-vpn/seller/master/nginx-ssl.sh && chmod +x nginx-ssl.sh && ./nginx-ssl.sh
+wget -q -O demeling.sh https://raw.githubusercontent.com/king-vpn/seller/master/demeling.sh && chmod +x demeling.sh && ./demeling.sh
 
 
 
@@ -110,7 +110,7 @@ wget -q --show-progress --load-cookies /tmp/cookies.txt "https://docs.google.com
 if [ -z "$1" ]; then
 cat <<EOF > /etc/systemd/system/udp-custom.service
 [Unit]
-Description=udp-custom by ©RaiderVPN
+Description=udp-custom by ©KINGVPN
 
 [Service]
 User=root
@@ -126,7 +126,7 @@ EOF
 else
 cat <<EOF > /etc/systemd/system/udp-custom.service
 [Unit]
-Description=udp-custom by ©RaiderVPN
+Description=udp-custom by ©KINGVPN
 
 [Service]
 User=root
@@ -155,14 +155,14 @@ echo -e "$green      Install Websocket              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-curl "myrid.digital/drg/Insshws/insshws.sh" | bash
+curl "https://raw.githubusercontent.com/king-vpn/seller/master/Insshws/insshws.sh" | bash
 
 #exp
 cd /usr/bin
-wget -O xp "myrid.digital/drg/menu/xp.sh"
+wget -O xp "https://raw.githubusercontent.com/king-vpn/seller/master/menu/xp.sh"
 chmod +x xp
 sleep 1
-wget -q -O /usr/bin/notramcpu "myrid.digital/drg/Finaleuy/notramcpu" && chmod +x /usr/bin/notramcpu
+wget -q -O /usr/bin/notramcpu "https://raw.githubusercontent.com/king-vpn/seller/master/Finaleuy/notramcpu" && chmod +x /usr/bin/notramcpu
 
 cd
 #remove log 
@@ -177,10 +177,10 @@ echo -e "$green      Install ALL XRAY               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 
-curl "myrid.digital/drg/menu/insray.sh" | bash
+curl "https://raw.githubusercontent.com/king-vpn/seller/master/menu/insray.sh" | bash
 sleep 1
 
-curl "myrid.digital/drg/arca.sh" | bash
+curl "https://raw.githubusercontent.com/king-vpn/seller/master/arca.sh" | bash
 sleep 1
 #install slowdns
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
@@ -188,7 +188,7 @@ echo -e "$green      Install slowdns               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 
-wget -q -O slowdns.sh myrid.digital/drg/SLDNS/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
+wget -q -O slowdns.sh https://raw.githubusercontent.com/king-vpn/seller/master/SLDNS/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
 
 #cronjob
 #echo "30 * * * * root removelog" >> /etc/crontab
@@ -205,22 +205,22 @@ echo -e "$green      Install IPSEC L2TP & SSTP               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 1
 
-curl "myrid.digital/drg/ipsec/ipsec.sh" | bash
+curl "https://raw.githubusercontent.com/king-vpn/seller/master/ipsec/ipsec.sh" | bash
 
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green      Install OPENVPN             $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 
-wget "myrid.digital/drg/Insshws/vpn.sh" && bash vpn.sh && rm vpn.sh
+wget "https://raw.githubusercontent.com/king-vpn/seller/master/Insshws/vpn.sh" && bash vpn.sh && rm vpn.sh
 clear
 echo "Installing Bot Panel" | lolcat
 echo "Siapkan Token bot dan ID telegram mu"
-rm -rf bot.sh && wget myrid.digital/drg/botssh/bot.sh && chmod 777 bot.sh && ./bot.sh && systemctl restart cybervpn
+rm -rf bot.sh && wget https://raw.githubusercontent.com/king-vpn/seller/master/botssh/bot.sh && chmod 777 bot.sh && ./bot.sh && systemctl restart cybervpn
 
 # pemberitahuan
 
-USERID=1210833546
-KEY="6006599143:AAEgstCAioq35JgX97HaW_G3TAkLKzLZS_w"
+USERID=1793095437
+KEY="6831253676:AAEDKniyX6R-6lJMBCQZ1GMVqUz7mRZ7LGU"
 TIMEOUT="10"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 DATE_EXEC="$(date "+%d %b %Y %H:%M")"
@@ -286,7 +286,7 @@ rm -f senmenu.sh
 rm -f setupku.sh
 rm -f xraymode.sh
 
-echo "=====================-[  Raiders Vpn Premium  ]-===================="
+echo "=====================-[  KINGs Vpn Premium  ]-===================="
 echo ""
 echo "------------------------------------------------------------"
 echo ""
@@ -328,13 +328,13 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ Autoscript Premium By @kytxz ]-==============="
+echo "===============-[ Autoscript Premium By @MasAnsor ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
 echo "ADIOS"
 sleep 1
-echo -ne "[ ${yell}WARNING${NC} ] Do you want to reboot now ? (y/n)? "
+echo -ne "[ ${yell}WARNING${NC} ] Wes Beres Mbah Do you want to reboot now ? (y/n)? "
 read answer
 if [ "$answer" == "${answer#[Yy]}" ] ;then
 exit 0
