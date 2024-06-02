@@ -18,7 +18,7 @@ else
 fi
 clear
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "\E[44;1;39m            ⇱ bot panel raider ⇲             \E[0m"
+echo -e "\E[44;1;39m            ⇱ bot panel kingvpn ⇲             \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "${LIGHT}"
 echo -e "STATUS RAIDER BOT: $cybervpn_service"
