@@ -70,6 +70,7 @@ else
   rm -f /etc/version
   rm -f /usr/bin/menu
   rm -f /usr/bin/menu-ssh
+  rm -f /usr/bin/panelbot
   # Tambahkan perintah rm untuk file lainnya...
 wget -q -O /etc/version "https://raw.githubusercontent.com/king-vpn/seller/master/versiupdate" && chmod +x /etc/version
   rm -f /usr/bin/menu
