@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TOKEN="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"
+TOKEN="ghp_M6hRoJoU1XhAWPJ0USutCCYXWJc1kT1g5dt"
 today=`date -d "0 days" +"%Y-%m-%d"`
 git clone https://github.com/myridwan/izinvps.git /root/izinvps/ &> /dev/null
 clear
