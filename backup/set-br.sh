@@ -21,13 +21,13 @@ read -rp "input your chat id Telegram:" nenen
 echo "$nenen" >> /root/id
 
 cd /usr/bin
-wget -O mautobackup "myrid.digital/drg/backup/autobackup.sh"
-wget -O /usr/bin/mbackup "myrid.digital/drg/backup/backup.sh"
-wget -O /usr/bin/mrestore "myrid.digital/drg/backup/restore.sh"
+wget -O mautobackup "https://raw.githubusercontent.com/king-vpn/seller/master/backup/autobackup.sh"
+wget -O /usr/bin/mbackup "https://raw.githubusercontent.com/king-vpn/seller/master/backup/backup.sh"
+wget -O /usr/bin/mrestore "https://raw.githubusercontent.com/king-vpn/seller/master/backup/restore.sh"
 
 
 
-wget -O mlimitspeed "myrid.digital/drg/backup/limitspeed.sh"
+wget -O mlimitspeed "https://raw.githubusercontent.com/king-vpn/seller/master/backup/limitspeed.sh"
 chmod +x mautobackup
 chmod +x /usr/bin/mbackup
 chmod +x /usr/bin/mrestore
