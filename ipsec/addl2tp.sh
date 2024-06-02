@@ -138,6 +138,6 @@ Created    : $hariini
 Expired    : $exp
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
            Terimakasih sudah menggunakan
-              SCRIPT RAIDER VPN PREMIUIM
+              SCRIPT KING VPN PREMIUIM
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 EOF
