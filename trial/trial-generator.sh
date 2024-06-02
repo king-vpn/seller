@@ -8,7 +8,7 @@ export LIGHT='\033[0;37m'
 export NC='\033[0m'
 clear
 echo -e "${PURPLE}=================================="
-echo -e "${LIGHT} TRIAL GENERATOR BY RAIDERS VPN PREMIUM"
+echo -e "${LIGHT} TRIAL GENERATOR BY KING VPN PREMIUM"
 
 
 echo -e "${PURPLE}=================================="
@@ -22,7 +22,7 @@ echo -e " 4).TRIAL AKUN VLESS"
 echo -e " 5).TRIAL AKUN TROJAN"
 echo -e "${PURPLE}==================================="
 
-read -p "PILIH NOMOR: " bro
+read -p "PILIH NOMOR: " Mbah
 echo -e ""
 case $bro in
 1) clear ; trial ;;
