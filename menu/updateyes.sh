@@ -2,7 +2,7 @@
 
 
 LocalVersion=$(cat /etc/version)
-version=$(curl -sS "myrid.digital/drg/versiupdate")
+version=$(curl -sS "https://raw.githubusercontent.com/king-vpn/seller/master/versiupdate")
 
 if [ "$LocalVersion" = "$version" ]; then
   echo
@@ -71,9 +71,9 @@ else
   rm -f /usr/bin/menu
   rm -f /usr/bin/menu-ssh
   # Tambahkan perintah rm untuk file lainnya...
-wget -q -O /etc/version "myrid.digital/drg/versiupdate" && chmod +x /etc/version
+wget -q -O /etc/version "https://raw.githubusercontent.com/king-vpn/seller/master/versiupdate" && chmod +x /etc/version
   rm -f /usr/bin/menu
-wget -q -O /usr/bin/menu "myrid.digital/drg/menu.sh" && chmod 777 /usr/bin/menu
+wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/king-vpn/seller/master/menu.sh" && chmod 777 /usr/bin/menu
 
 
 fi
