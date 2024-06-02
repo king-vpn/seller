@@ -5,14 +5,14 @@ mkdir /var/lib/ssnvpn-pro/
 rm -f /usr/bin/menu-ssh
 
 
-wget -q -O /var/lib/ssnvpn-pro/ipvps.conf "myrid.digital/drg/ipvps.conf"
-wger -q -O /usr/bin/tendang "myrid.digital/drg/limit/tendang.sh"
-#wget -q -O /usr/bin/autokill "myrid.digital/drg/limit/autokill.sh"
-wget -q -O /usr/bin/menu-ssh "myrid.digital/drg/menu/menu-ssh.sh"
-wget -q -O /usr/bin/restart "myrid.digital/drg/menu/restart.sh"
+wget -q -O /var/lib/ssnvpn-pro/ipvps.conf "https://raw.githubusercontent.com/king-vpn/seller/master/ipvps.conf"
+wger -q -O /usr/bin/tendang "https://raw.githubusercontent.com/king-vpn/seller/master/limit/tendang.sh"
+#wget -q -O /usr/bin/autokill "https://raw.githubusercontent.com/king-vpn/seller/master/limit/autokill.sh"
+wget -q -O /usr/bin/menu-ssh "https://raw.githubusercontent.com/king-vpn/seller/master/menu/menu-ssh.sh"
+wget -q -O /usr/bin/restart "https://raw.githubusercontent.com/king-vpn/seller/master/menu/restart.sh"
 chmod +x /usr/bin/restart
-wget -q -O /usr/bin/bot "myrid.digital/drg/Finaleuy/bot.sh"
-wget -q -O /root/chat "myrid.digital/drg/Finaleuy/chatid.sh"
+wget -q -O /usr/bin/bot "https://raw.githubusercontent.com/king-vpn/seller/master/Finaleuy/bot.sh"
+wget -q -O /root/chat "https://raw.githubusercontent.com/king-vpn/seller/master/Finaleuy/chatid.sh"
 chmod 777 /root/chat
 chmod 777 /usr/bin/bot
 
@@ -65,10 +65,10 @@ service cron restart
 #konfigurasi slowdns
 rm -rf /etc/slowdns
 mkdir -m 777 /etc/slowdns
-wget -q -O /etc/slowdns/server.key "myrid.digital/drg/SLDNS/server.key"
-wget -q -O /etc/slowdns/server.pub "myrid.digital/drg/SLDNS/server.pub"
-wget -q -O /etc/slowdns/sldns-server "myrid.digital/drg/SLDNS/sldns-server"
-wget -q -O /etc/slowdns/sldns-client "myrid.digital/drg/SLDNS/sldns-client"
+wget -q -O /etc/slowdns/server.key "https://raw.githubusercontent.com/king-vpn/seller/master/SLDNS/server.key"
+wget -q -O /etc/slowdns/server.pub "https://raw.githubusercontent.com/king-vpn/seller/master/SLDNS/server.pub"
+wget -q -O /etc/slowdns/sldns-server "https://raw.githubusercontent.com/king-vpn/seller/master/SLDNS/sldns-server"
+wget -q -O /etc/slowdns/sldns-client "https://raw.githubusercontent.com/king-vpn/seller/master/SLDNS/sldns-client"
 cd
 chmod +x /etc/slowdns/server.key
 chmod +x /etc/slowdns/server.pub
