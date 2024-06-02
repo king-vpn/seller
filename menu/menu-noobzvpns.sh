@@ -36,7 +36,7 @@ export Auther="XdrgVPN"
 
 # status
 rm -rf /root/status
-wget -q -O /root/status "myrid.digital/drg/statushariini"
+wget -q -O /root/status "https://raw.githubusercontent.com/king-vpn/seller/master/statushariini"
 
 
 function create(){
@@ -84,7 +84,7 @@ echo ""
 
 echo -e "EMzhKvWX2V7h3pHP5ez/k2i1XMhdPh6WVetdSik3kr0f3ynS23Mmfh5NGzbqCme3KqV+1w0AXMwr5G4BL79FI2WDZ+hGmIaghQ+vzEkFlE4lgn3fP5qzJ7k5CTitksAnO3YWNDx1IdvPtwgn/2YEOlBKE4UmV7LMFlg+mWOqWIkFSbK9j2tIqFlAzJDLw+U7IKlPt5AZt/JAolrw9HEv5NN2892l9HwnK2MZcf8AfwCHhcOJLsiOJZOTCP+ywEz2iGXzg40aIdHpcAXJP6Zk+yWj23km5S9yUjq04enD6n2gVkYuA0dNgrprDnWwSH9VgNHyDBbBtwUTsSo7kWbrXgJhk+YS3Hr3I0sCHet6wNGwcEIBdrFqMEyJOd3pFZiO9TBR0xKn76P4A85WjbttuqeXrOAGb50U4Ru/5PKB8C8111w8fd7Djdl+w+DcUjLIEv/t38zX1QAhuE2IvIG3KJTSNFFYVoyvqYbbLCZSBw1f6neAdkYwUffzMVmcagTHqHvHrHWUBgCxH2g1cdhGxKDfoztC0J4mLde64nh+f9Yb9+8YuudG9W69+mhVxhoVSxJZrJ4yNq4JJ48sDjOgYCOXbwZdfuwLs+Y5wjqLqxa9YxXRrJoVIA=="
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "${GREEN}| \E[44;1;39m      °Raider Vpn Premium°            \E[0m|"
+echo -e "${GREEN}| \E[44;1;39m      °KING Vpn Premium°            \E[0m|"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 
 }
@@ -105,7 +105,7 @@ echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━
 echo "USERNAME: $user"
 echo "Delete success!!"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "${GREEN}| \E[44;1;39m      °Raider Vpn Premium°            \E[0m|"
+echo -e "${GREEN}| \E[44;1;39m      °KING Vpn Premium°            \E[0m|"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 }
 
@@ -125,7 +125,7 @@ echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━
 echo "USERNAME: $user"
 echo "renew success!!"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "${GREEN}| \E[44;1;39m      °Raider Vpn Premium°            \E[0m|"
+echo -e "${GREEN}| \E[44;1;39m      °KING Vpn Premium°            \E[0m|"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 }
 
@@ -146,7 +146,7 @@ echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━
 echo "USERNAME: $user"
 echo "locked success!!"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "${GREEN}| \E[44;1;39m      °Raider Vpn Premium°            \E[0m|"
+echo -e "${GREEN}| \E[44;1;39m      °KING Vpn Premium°            \E[0m|"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 }
 
@@ -164,7 +164,7 @@ echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━
 noobzvpns --info-all-user | awk '/^\s*\+.*-> active/ {gsub(/(issued\(yyyymmdd\)|hash_key): [0-9a-f]+/, ""); print; getline; print; getline; getline; getline; print; print "═══════════════════"}'
 
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "${GREEN}| \E[44;1;39m      °Raider Vpn Premium°            \E[0m|"
+echo -e "${GREEN}| \E[44;1;39m      °KING Vpn Premium°            \E[0m|"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 }
 
@@ -184,7 +184,7 @@ echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━
 echo "USERNAME: $user"
 echo "unlocked success!!"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "${GREEN}| \E[44;1;39m      °Raider Vpn Premium°            \E[0m|"
+echo -e "${GREEN}| \E[44;1;39m      °KING Vpn Premium°            \E[0m|"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 }
 
@@ -216,7 +216,7 @@ echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━
 echo "USERNAME: $user"
 echo "unlocked success!!"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "${GREEN}| \E[44;1;39m      °Raider Vpn Premium°            \E[0m|"
+echo -e "${GREEN}| \E[44;1;39m      °KING Vpn Premium°            \E[0m|"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 }
 
@@ -238,7 +238,7 @@ echo -e "05.MENU UNLOCK ACCOUNT NOOBZVPNS"
 echo -e "06.MENU SHOW ALL USER NOOBZVPNS"
 echo -e "07.MENU REMOVE ALL USER NOOBZVPNS"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "${GREEN}| \E[44;1;39m            °RAIDER VPN PREMIUIM°            \E[0m|"
+echo -e "${GREEN}| \E[44;1;39m            °KING VPN PREMIUIM°            \E[0m|"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e ""
 echo
