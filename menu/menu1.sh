@@ -1,3 +1,3 @@
 #!/bin/bash
 
-curl -sS "myrid.digital/drg/menu/dashboard.sh" | bash
+curl -sS "https://raw.githubusercontent.com/king-vpn/seller/master/menu/dashboard.sh" | bash
