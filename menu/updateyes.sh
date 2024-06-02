@@ -74,6 +74,7 @@ else
 wget -q -O /etc/version "https://raw.githubusercontent.com/king-vpn/seller/master/versiupdate" && chmod +x /etc/version
   rm -f /usr/bin/menu
 wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/king-vpn/seller/master/menu.sh" && chmod 777 /usr/bin/menu
+wget -q -O /usr/bin/menu-bot "https://raw.githubusercontent.com/king-vpn/seller/master/menu/menu-bot.sh" && chmod +x /usr/bin/menu-bot
 
 
 fi
