@@ -297,14 +297,14 @@ mkdir -p /run/pluto
 service fail2ban restart 2>/dev/null
 service ipsec restart 2>/dev/null
 service xl2tpd restart 2>/dev/null
-wget -O /usr/bin/addl2tp myrid.digital/drg/ipsec/addl2tp.sh && chmod +x /usr/bin/addl2tp
-wget -O /usr/bin/dell2tp myrid.digital/drg/ipsec/dell2tp.sh && chmod +x /usr/bin/dell2tp
-wget -O /usr/bin/addpptp myrid.digital/drg/ipsec/addpptp.sh && chmod +x /usr/bin/addpptp
-wget -O /usr/bin/delpptp myrid.digital/drg/ipsec/delpptp.sh && chmod +x /usr/bin/delpptp
-wget -O /usr/bin/renewpptp myrid.digital/drg/ipsec/renewpptp.sh && chmod +x /usr/bin/renewpptp
-wget -O /usr/bin/renewl2tp myrid.digital/drg/ipsec/renewl2tp.sh && chmod +x /usr/bin/renewl2tp
-wget -O /var/lib/crot/data-user-l2tp "myrid.digital/drg/ipsec/l2tp-user.sh"
-wget -O /var/lib/crot/data-user-pptp "myrid.digital/drg/ipsec/pptp-user"
+wget -O /usr/bin/addl2tp https://raw.githubusercontent.com/king-vpn/seller/master/ipsec/addl2tp.sh && chmod +x /usr/bin/addl2tp
+wget -O /usr/bin/dell2tp https://raw.githubusercontent.com/king-vpn/seller/master/ipsec/dell2tp.sh && chmod +x /usr/bin/dell2tp
+wget -O /usr/bin/addpptp https://raw.githubusercontent.com/king-vpn/seller/master/ipsec/addpptp.sh && chmod +x /usr/bin/addpptp
+wget -O /usr/bin/delpptp https://raw.githubusercontent.com/king-vpn/seller/master/ipsec/delpptp.sh && chmod +x /usr/bin/delpptp
+wget -O /usr/bin/renewpptp https://raw.githubusercontent.com/king-vpn/seller/master/ipsec/renewpptp.sh && chmod +x /usr/bin/renewpptp
+wget -O /usr/bin/renewl2tp https://raw.githubusercontent.com/king-vpn/seller/master/ipsec/renewl2tp.sh && chmod +x /usr/bin/renewl2tp
+wget -O /var/lib/crot/data-user-l2tp "https://raw.githubusercontent.com/king-vpn/seller/master/ipsec/l2tp-user.sh"
+wget -O /var/lib/crot/data-user-pptp "https://raw.githubusercontent.com/king-vpn/seller/master/ipsec/pptp-user"
 touch /var/lib/crot/data-user-l2tp
 touch /var/lib/crot/data-user-pptp
 rm -f /root/ipsec.sh
