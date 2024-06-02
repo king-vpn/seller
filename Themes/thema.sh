@@ -30,25 +30,25 @@ read -p    "Pilih Nomor :" bro
 if [ $bro = 1 ] || [ $bro = 1 ]
 then
 rm -rf /usr/bin/menu
-wget -q -O /usr/bin/menu "myrid.digital/drg/Themes/menu.sh" && chmod 777 /usr/bin/menu
+wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/king-vpn/seller/master/Themes/menu.sh" && chmod 777 /usr/bin/menu
 menu
 fi
 if [ $bro = 2 ] || [ $bro = 2 ]
 then
 rm -rf /usr/bin/menu
-wget -q -O /usr/bin/menu "myrid.digital/drg/Themes/menu1.sh" && chmod 777 /usr/bin/menu
+wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/king-vpn/seller/master/Themes/menu1.sh" && chmod 777 /usr/bin/menu
 menu
 fi
 if [ $bro = 3 ] || [ $bro = 3 ]
 then
 rm -rf /usr/bin/menu
-wget -q -O /usr/bin/menu "myrid.digital/drg/Themes/menu2.sh" && chmod 777 /usr/bin/menu
+wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/king-vpn/seller/master/Themes/menu2.sh" && chmod 777 /usr/bin/menu
 menu
 fi
 if [ $bro = 4 ] || [ $bro = 4 ]
 then
 rm -rf /usr/bin/menu
-wget -q -O /usr/bin/menu "myrid.digital/drg/Themes/menu3.sh" && chmod 777 /usr/bin/menu
+wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/king-vpn/seller/master/Themes/menu3.sh" && chmod 777 /usr/bin/menu
 menu
 fi
 
