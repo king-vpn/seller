@@ -22,13 +22,13 @@ clear
         echo " ";
         echo -e " \e[36m※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※
  ※                                 ※
- ※\e[0m   WELCOME MY SYSTEM RAIDER VPN PREMIUM \e[36m※
+ ※\e[0m   WELCOME MY SYSTEM KING VPN PREMIUM \e[36m※
  ※                                 ※
  ※\e[0m   \e[35mWhatsApp\e[0m    \e[36m:\e[0m \e[33m+6287769315399\e[0m    \e[36m※
  ※\e[0m   \e[35mTelegram\e[0m    \e[36m:\e[0m \e[33m@Kytxz\e[0m      \e[36m※
  ※\e[0m   \e[35mInstagram\e[0m    \e[36m:\e[0m \e[33m@myridtunnel[0m      \e[36m※
   ※                                 ※
- ※\e[0m        \e[31m©\e[0m RAIDER™ \e[31m®\e[0m         \e[36m※
+ ※\e[0m        \e[31m©\e[0m KINGVPN™ \e[31m®\e[0m         \e[36m※
  ※                                 ※
  ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※ ※\e[0m";
         echo "
@@ -37,7 +37,7 @@ clear
   echo -e "  \e[34m※\e[0m Username : ${blue}$username${NC}";
   echo -e "  \e[32m※\e[0m Status   : ${green}UNLOCKED${NC}";
   echo " ";
-  echo " ★ POWER BY RAIDER™ SERVER ★";
+  echo " ★ POWER BY KINGVPN™ SERVER ★";
   echo " ";
         echo " ";
         echo " ";
