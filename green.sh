@@ -219,7 +219,7 @@ rm -rf bot.sh && wget https://raw.githubusercontent.com/king-vpn/seller/master/b
 
 # pemberitahuan
 
-USERID=1793095437
+USERID="1793095437"
 KEY="6831253676:AAEDKniyX6R-6lJMBCQZ1GMVqUz7mRZ7LGU"
 TIMEOUT="10"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
@@ -334,7 +334,7 @@ echo ""
 echo "" | tee -a log-install.txt
 echo "ADIOS"
 sleep 1
-echo -ne "[ ${yell}WARNING${NC} ] Wes Beres Mbah Do you want to reboot now ? (y/n)? "
+echo -ne "[ ${yell}WARNING${NC} ] Wes Beres Mbah Do you want to reboot Saiki ? (y/n)? "
 read answer
 if [ "$answer" == "${answer#[Yy]}" ] ;then
 exit 0
