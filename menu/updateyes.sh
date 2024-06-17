@@ -30,6 +30,7 @@ rm -rf menu-bot
 rm -rf addhost
 rm -rf nginx-ssl
 rm -rf statushariini
+rm -rf trial-generator
 # // Download Data Baru
 # // menu
 wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/king-vpn/seller/master/menu/menu.sh" && chmod +x /usr/bin/menu
