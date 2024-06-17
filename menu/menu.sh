@@ -65,6 +65,7 @@ echo -e "11.Bot panel setting"
 echo -e "12.FIX UDP CUSTOM"
 echo -e "13.MENU IPSEC (L2TP & PPTP)"
 echo -e "14.Back to terminal"
+echo -e "15.UPDATE SC"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "${GREEN}| \E[44;1;39m    °KING VPN PREMIUIM°      \E[0m|"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
@@ -87,6 +88,7 @@ case $opt in
 12) clear ; curl "https://raw.githubusercontent.com/Azigaming404/Autoscript-by-azi/main/udp/udp-custom.sh" | bash ;;
 13) clear ; menu-ipsec ;;
 14) clear ; menu1 ;;
+15) clear ; wget https://raw.githubusercontent.com/king-vpn/seller/master/menu/updateyes.sh && chmod +x upsc.sh && ./updateyes.sh ;;
 100) clear ; $up2u ;;
 00 | 0) clear ; menu ;;
 *) clear ; menu ;;
