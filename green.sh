@@ -219,7 +219,7 @@ rm -rf bot.sh && wget https://raw.githubusercontent.com/king-vpn/seller/master/b
 
 # pemberitahuan
 
-USERID="1793095437"
+USERID=1793095437
 KEY="6831253676:AAEDKniyX6R-6lJMBCQZ1GMVqUz7mRZ7LGU"
 TIMEOUT="10"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
